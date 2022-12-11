@@ -5,6 +5,8 @@ WORKDIR /app
 COPY pom.xml .
 COPY src ./src
 
+EXPOSE 8080
+
 RUN mvn package -DskipTests
 
 FROM --platform=linux/amd64 openjdk:11
