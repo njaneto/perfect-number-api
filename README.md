@@ -38,7 +38,7 @@ import [Collection](./doc/Collection-PerfectNumber.postman_collection.json)
 ## Start API 
 
 ```
-    docker run -it --name perfect-number-api -p 8080:808O <name-space>/perfect-number-api:<tag>
+    docker run -it --name perfect-number-api -p 8000:808O <name-space>/perfect-number-api:<tag>
 ```
 
 ### Contributing Authors
