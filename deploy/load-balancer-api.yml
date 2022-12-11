@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-perfect-number-api
+spec:
+  type: LoadBalancer
+  selector:
+    app: perfect-number-api
+  ports:
+    - name: perfect-number-api
+      port: 8080
+      nodePort: 30001

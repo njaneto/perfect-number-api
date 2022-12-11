@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "26c00a59-9f4d-42cf-aaac-bfe92668f7d3",
+		"name": "Collection-PerfectNumber",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3427888"
+	},
+	"item": [
+		{
+			"name": "/perfect/number",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"numbers\": [8589869056, 28, 137438691328 ,496, 8128, 33550336,6]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/perfect/number",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"perfect",
+						"number"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

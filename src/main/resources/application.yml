@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: perfect-number-api
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.springframework.security: DEBUG
